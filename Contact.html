@@ -97,22 +97,26 @@
             <form id="contact-form" action="https://arcane-earth-03360.herokuapp.com/send/" method="POST">
                 <h3 class="title-form"><span style="color: #555f7c;">Contact me</span></h3>
                 <div class="input-container">
-                    <input type="text" name="name" class="input">
-                    <label id="label" for="">Username</label>
+                    <input type="text" name="name" class="input" required>
+                    <label id="label" for="">Name</label>
                     <span>Username</span>
                 </div>
                 <div class="input-container">
-                    <input type="email" name="email" class="input">
+                    <input type="email" name="email" class="input" required>
                     <label id="label" for="">Email</label>
                     <span>Email</span>
                 </div>
+
+<!--For the future if I ever want another input
                 <div class="input-container">
                     <input type="tel" name="phone" class="input">
-                    <label id="label" for="">Phone</label>
+                    <label id="label" for="">Title</label>
                     <span>Phone</span>
                 </div>
+-->
+
                 <div class="input-container textarea">
-                    <textarea name="message" class="input"></textarea>
+                    <textarea name="message" class="input" required></textarea>
                     <label id="label" for="">Message</label>
                     <span>Message</span>
                 </div>
