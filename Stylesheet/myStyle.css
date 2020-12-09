@@ -776,3 +776,21 @@ textarea.input {
 }
 
 /* ================================================ */
+
+/* ABOUT PAGE
+================================================ */
+
+.About-me {
+  Font-family: 'poppins', sans-serif;
+  font-size: 18px;
+  color: #677294;
+  font-weight: 350;
+}
+
+.About-me1 {
+  Font-family: 'poppins', sans-serif;
+  font-size: 18px;
+  color: #677294;
+  margin-top:150px;
+  font-weight: 350;
+}
