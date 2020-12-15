@@ -825,3 +825,12 @@ textarea.input {
     padding-right: 20px;
   }
 }
+
+/* CAROUSEL
+================================================ */
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators {
+  filter: invert(100%);
+}
