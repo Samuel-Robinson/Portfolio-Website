@@ -88,6 +88,7 @@ img {
   font-weight: bold;
   margin-bottom: 20px;
   font-size: 38px;
+  margin-top: 150px;
 }
 
 #para {
@@ -145,6 +146,10 @@ img {
 @media screen and (max-width: 1000px) {
   #title2 {
     text-align: center;
+  }
+
+  #title {
+    margin:0;
   }
 
   #para2 {
@@ -277,9 +282,10 @@ footer {
 }
 
 #sub {
-  margin:5px 0px 10px 0px;
+  margin-bottom: 400px;
   font-size: 20px;
   color: #677294;
+
 }
 
 .intro-para {
@@ -301,7 +307,7 @@ h2 {
   font-family: 'poppins', sans-serif !important;
   font-weight: bolder !important;
   color: #414141 !important;
-  padding: 40px 0px 0px 120px;
+  padding-top: 40px;
 }
 
 #table {
@@ -313,8 +319,7 @@ h2 {
   Font-family: 'poppins', sans-serif;
   font-size: 16px;
   color: #677294;
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-right: 250px;
   padding-bottom: 20px;
   line-height: 27px;
   margin-top: 30px;
@@ -346,8 +351,7 @@ h2 {
 */
 
 .quote {
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-right: 250px;
   padding-bottom: 20px;
   color:#677294;
   font-size: 25px;
@@ -360,6 +364,7 @@ h2 {
   -webkit-box-shadow: 0px 30px 40px 0px rgba(202, 202, 202, 0.28);
   box-shadow: 0px 30px 40px 0px rgba(202, 202, 202, 0.28);
   padding: 47px 40px 0px;
+  margin-top: 50px;
   height: 100%;
   position: relative;
   border: 2px solid transparent;
@@ -377,11 +382,11 @@ font-size: 18px;
 border-radius: 50%;
 color: #fff;
 text-align: center;
-background-image: -moz-linear-gradient(40deg, #5e2ced 0%, #a485fd 100%);
-background-image: -webkit-linear-gradient(40deg, #5e2ced 0%, #a485fd 100%);
-background-image: -ms-linear-gradient(40deg, #5e2ced 0%, #a485fd 100%);
--webkit-box-shadow: 0px 14px 30px 0px rgba(94, 44, 237, 0.4);
-box-shadow: 0px 14px 30px 0px rgba(94, 44, 237, 0.4);
+background-image: -moz-linear-gradient(40deg, #4e78f4 0%, #a4bbff 100%);
+background-image: -webkit-linear-gradient(40deg, #4e78f4 0%, #a4bbff 100%);
+background-image: -ms-linear-gradient(40deg, #4e78f4 0%, #a4bbff 100%);
+-webkit-box-shadow: 0px 14px 30px 0px #4e78f491;
+box-shadow: 0px 14px 30px 0px #4e78f485;
 position: absolute;
 right: 30px;
 top: 30px;
@@ -426,6 +431,8 @@ box-shadow: 0px 50px 100px 0px rgba(64, 1, 4, 0.1), 0px -6px 0px 0px rgba(248, 9
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 992px) {
@@ -440,6 +447,7 @@ box-shadow: 0px 50px 100px 0px rgba(64, 1, 4, 0.1), 0px -6px 0px 0px rgba(248, 9
     text-align: left;
     margin-left: 80px;
     padding-left: 0px;
+    margin-bottom: 50px;
   }
 
   .intro-para {
