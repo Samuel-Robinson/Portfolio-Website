@@ -269,7 +269,7 @@ footer {
 
 
 #case-study-title {
-    margin: 100px 0px 10px 0px;
+    margin: 120px 0px 20px 0px;
     font-size: 40px;
     font-family: 'poppins', sans-serif;
     font-weight: bold;
@@ -277,9 +277,20 @@ footer {
 }
 
 #sub {
-  margin:5px 0px 100px 0px;
+  margin:5px 0px 10px 0px;
   font-size: 20px;
   color: #677294;
+}
+
+.intro-para {
+  font-family: 'poppins', sans-serif;
+  color: #677294;
+  padding-right: 34px;
+  font-size: 20px;
+}
+
+#intro-image {
+  margin-top:100px;
 }
 
 .container h1 {
@@ -430,6 +441,10 @@ box-shadow: 0px 50px 100px 0px rgba(64, 1, 4, 0.1), 0px -6px 0px 0px rgba(248, 9
     margin-left: 80px;
     padding-left: 0px;
   }
+
+  .intro-para {
+    margin-left: 80px;
+  }
   
   .CS-Content {
     Font-family: 'poppins', sans-serif;
@@ -463,6 +478,10 @@ box-shadow: 0px 50px 100px 0px rgba(64, 1, 4, 0.1), 0px -6px 0px 0px rgba(248, 9
   margin-left: 25px;
   margin-right: 25px;
   padding-left: 0px;
+}
+
+.intro-para {
+  margin-left: 25px;
 }
 
 #sub {
