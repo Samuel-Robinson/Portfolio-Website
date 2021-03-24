@@ -149,6 +149,10 @@ img {
     margin: auto;
   }
 
+  .image-right {
+    float: none;
+  }
+
   #button2 {
     float:none;
   }
