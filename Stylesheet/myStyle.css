@@ -342,6 +342,18 @@ h2 {
   margin-top: 30px;
 }
 
+.icon-list {
+  padding-left: 0;
+  margin-left: 50px;
+  Font-family: 'poppins', sans-serif;
+  font-size: 16px;
+  color: #677294;
+  padding: 5px
+}
+
+
+
+
 /*
 .quote {
   background: #f9f9f9;
